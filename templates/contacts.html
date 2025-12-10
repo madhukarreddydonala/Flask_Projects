@@ -1,0 +1,7 @@
+<h2>All Contacts</h2>
+<a href="/add_contacts">Add New Contact</a>
+<ul>
+{% for c in contacts %}
+  <li>{{ c[1] }} - {{ c[2] }}</li>
+{% endfor %}
+</ul>

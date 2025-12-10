@@ -1,0 +1,7 @@
+<h2>All Notes</h2>
+<a href="/add_note">Add New Note</a>
+<ul>
+{% for n in notes %}
+  <li><b>{{ n[1] }}:</b> {{ n[2] }}</li>
+{% endfor %}
+</ul>
